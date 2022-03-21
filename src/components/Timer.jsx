@@ -9,7 +9,7 @@ function Timer() {
   let Ref = useRef();
 
   const startTimer = () => {
-    const currentDate = new Date("april 31, 2022 00:00:00").getTime();
+    const currentDate = new Date("april 6, 2022 00:00:00").getTime();
 
     Ref.current = setInterval(() => {
       const now = new Date().getTime();
