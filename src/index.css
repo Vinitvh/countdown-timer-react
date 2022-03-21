@@ -1,6 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  /* Primary */
+  --grayish-blue: hsl(237, 18%, 59%);
+  --soft-red: hsl(345, 95%, 68%);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --dark-desaturated-blue: hsl(236, 21%, 26%);
+  --very-dark-blue: hsl(235, 16%, 14%);
+  --almost-black: hsl(234, 17%, 12%);
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  background-color: var(--almost-black);
+  letter-spacing: 5px;
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  background: url("./assets/bg-stars.svg") no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: center;
+  color: var(--white);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 5rem 0;
+}
+
+.footer {
+  width: 100%;
+  color: var(--grayish-blue);
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+}
+
+.icons img {
+  padding: 0 1rem;
+  cursor: pointer;
+}
