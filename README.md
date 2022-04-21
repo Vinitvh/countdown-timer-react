@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Vinitvh/countdown-timer-react)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Website](https://launch-countdown-timer-vh.netlify.app/)
 
 ## My process
 
@@ -48,6 +48,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@vinitvh](https://www.frontendmentor.io/profile/vinitvh)
+- Frontend Mentor - [@Vinitvh](https://www.frontendmentor.io/profile/Vinitvh)
 - Twitter - [@vinitvh009](https://www.twitter.com/vinitvh009)
